@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blake Jensen - Expert ESAT tutor with 17 years of experience in science and math tutoring. Specializing in ESAT preparation for UK university admissions.">
+    <meta name="keywords" content="ESAT tutor, ESAT tutoring, Engineering and Science Admissions Test, Blake Jensen, UK university admissions, Cambridge ESAT, Imperial ESAT, math tutor, science tutor">
+    <title>Blake Jensen - ESAT Tutor | Expert ESAT Preparation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                linear-gradient(45deg, rgba(255,255,255,0.05) 25%, transparent 25%),
+                linear-gradient(-45deg, rgba(255,255,255,0.05) 25%, transparent 25%),
+                linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.05) 75%),
+                linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.05) 75%);
+            background-size: 40px 40px;
+            background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+            opacity: 0.6;
+        }
+        
+        header .container {
+            position: relative;
+            z-index: 1;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+        
+        .profile-section {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            margin: 60px 0;
+            flex-wrap: wrap;
+        }
+        
+        .profile-image {
+            flex: 0 0 300px;
+        }
+        
+        .profile-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-content {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        h2 {
+            color: #1e3a8a;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            color: #1e3a8a;
+            font-size: 1.5em;
+            margin: 30px 0 15px 0;
+        }
+        
+        .experience-highlight {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .experience-highlight strong {
+            color: #1e3a8a;
+        }
+        
+        .test-info {
+            background: #f8fafc;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 40px 0;
+        }
+        
+        .test-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .test-detail-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .test-detail-item strong {
+            color: #1e3a8a;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .cta-section {
+            background: #1e3a8a;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .contact-button {
+            display: inline-block;
+            background: #3b82f6;
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        
+        .contact-button:hover {
+            background: #2563eb;
+        }
+        
+        .subjects-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .subject-tag {
+            background: #e0f2fe;
+            color: #0c4a6e;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background: #f8fafc;
+            margin-top: 60px;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .profile-section {
+                flex-direction: column;
+            }
+            
+            .profile-image {
+                flex: 0 0 auto;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Blake Jensen</h1>
+            <p>Expert ESAT Tutor</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="profile-section">
+            <div class="profile-image">
+                <img src="jensen_blake_headshot_smaller.png" alt="Blake Jensen - ESAT Tutor">
+            </div>
+            <div class="profile-content">
+                <h2>A tutor who knows the content AND the speed tricks to the ESAT</h2>
+                <div class="experience-highlight">
+                    <p><strong>17 years of tutoring experience</strong> in science and math</p>
+                    <p>Extensive experience preparing students for fast-paced standardized tests including the SAT and ACT</p>
+                    <p>Studied official ESAT materials to provide comprehensive test preparation</p>
+                </div>
+                <p>I specialize in helping students prepare for the Engineering and Science Admissions Test (ESAT), drawing on nearly two decades of experience in standardized test preparation and advanced science and math tutoring.</p>
+            </div>
+        </section>
+        
+        <section class="test-info">
+            <h2>About the ESAT</h2>
+            <p>The Engineering and Science Admissions Test (ESAT) is a new admissions assessment first administered in October 2024. It is used by top UK universities including Cambridge and Imperial College London for applicants to engineering and science programs.</p>
+            
+            <h3>Test Structure</h3>
+            <div class="subjects-list">
+                <span class="subject-tag">Mathematics 1</span>
+                <span class="subject-tag">Mathematics 2</span>
+                <span class="subject-tag">Physics</span>
+                <span class="subject-tag">Chemistry</span>
+                <span class="subject-tag">Biology</span>
+            </div>
+            
+            <div class="test-details">
+                <div class="test-detail-item">
+                    <strong>Scoring</strong>
+                    <p>Scored on a scale of 1-9</p>
+                </div>
+                <div class="test-detail-item">
+                    <strong>Test Dates</strong>
+                    <p>Administered in October and January</p>
+                </div>
+                <div class="test-detail-item">
+                    <strong>First Administered</strong>
+                    <p>October 2024</p>
+                </div>
+            </div>
+            
+            <p style="margin-top: 20px;">For official registration and practice materials, visit: <a href="https://esat-tmua.ac.uk/about-the-tests/esat-test/" target="_blank" style="color: #3b82f6; text-decoration: none; font-weight: 500;">esat-tmua.ac.uk/about-the-tests/esat-test/</a></p>
+            
+            <p style="margin-top: 10px;">Join the ESAT community: <a href="https://www.reddit.com/r/esatprep/" target="_blank" style="color: #3b82f6; text-decoration: none; font-weight: 500;">r/esatprep subreddit</a></p>
+        </section>
+    </div>
+    
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to prepare the right way for the ESAT?</h2>
+            <p>Contact Blake Jensen for expert ESAT tutoring</p>
+            <a href="tel:+447476948741" class="contact-button">Call +44 7476 948741</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Blake Jensen ESAT Tutoring. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
